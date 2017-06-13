@@ -1,9 +1,10 @@
 var mongoose = require('mongoose')
-//var mongoUrl = 'mongodb://pdthang:Thangphan90@10.99.0.11:27017/admin'
-var mongoUrl = 'mongodb://pdthang:Thangphan90@mongo.plugplay.co:27017/admin'
+var mongoUrl = 'mongodb://pdthang:Thangphan90@10.99.0.11:27017/admin'
+//var mongoUrl = 'mongodb://pdthang:Thangphan90@mongo.plugplay.co:27017/admin'
 
 // Refer issue to config setting
 // https://github.com/mcollina/mosca/issues/212
+// https://github.com/mcollina/ascoltatori/blob/master/lib/mongo_ascoltatore.js#53
 var ascoltatore = {
   // using ascoltatore
     type: 'mongo',

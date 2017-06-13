@@ -9,7 +9,7 @@ COPY ./  /app
 
 RUN npm install --save
 RUN apt-get update
-RUN apt-get install -y vim 
+RUN apt-get install -y vim git 
    
 RUN rm node_modules/mosca/lib/server.js
     
